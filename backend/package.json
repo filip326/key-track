@@ -1,0 +1,24 @@
+{
+    "name": "key-tracker-backend",
+    "author": {
+        "name": "heeecker"
+    },
+    "main": "lib/index.js",
+    "private": true,
+    "scripts": {
+        "start": "node --env-file=.env .",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "express": "^4.21.1",
+        "mongodb": "^6.11.0",
+        "typescript": "^5.7.2",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.10.0",
+        "ts-node": "^10.9.2",
+        "tsc": "^2.0.4"
+    }
+}

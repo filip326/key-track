@@ -1,0 +1,20 @@
+{
+    "buildOptions": {
+        "dry": true,
+    },
+    "compilerOptions": {
+        "allowJs": false,
+        "strict": true,
+        "esModuleInterop": true,
+        "target": "ESNext",
+        "outDir": "./lib",
+        "rootDir": "./src",
+        "module": "NodeNext",
+        "moduleResolution": "nodenext"
+    },
+    "include": [
+        "src",
+        "src/**/*.ts",
+        "src/**/*.d.ts"
+    ]
+}
